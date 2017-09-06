@@ -26,6 +26,8 @@ app.listen(8080, () => {
     console.log('Start on port 8080.');
 });
 
+module.exports = {app};
+
 // var newTodo = new Todo({
 //     text: 'Shopping',
 //     completed: true,
